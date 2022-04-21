@@ -1,0 +1,37 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.header {
+  text-align: center;
+}
+.header h1 {
+  text-align: center;
+  background-color: yellow;
+  display: inline-block;
+  border-radius: 10px;
+  border: 1px solid #000;
+  padding: 12px;
+}
+.main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main .card {
+  align-self: center;
+  border-radius: 10px;
+  border: 1px solid pink;
+  margin: 16px;
+  width: 540px;
+  min-height: 100px;
+}
+
+.main button {
+  padding: 24px;
+  border-radius: 10px;
+  border: 1px solid pink;
+  background-color: yellow;
+  font-size: 24px;
+}
